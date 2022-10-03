@@ -37,11 +37,14 @@ return (
                     key={index}
                     id={index}
                     text = {todoItem}
-                    onChecked ={deleteItem}
+                   onChecked = {deleteItem}
                     />
+                    
                 ))
             }
+          
         </ul>
+       
     </div>
 
   </div>
