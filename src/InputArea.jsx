@@ -7,6 +7,7 @@ function InputArea(props){
         const newValue = event.target.value;
          setcount(newValue);
       }
+     
   return (
     <div className="form">
     <input type="text"
